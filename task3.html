@@ -1,0 +1,105 @@
+<!-- Design a contact us form with all fields as required.-->
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form>
+            <h3>Hi <span>Login here </span></h3>
+            <div>
+                <label for="name"> Name:</label>
+                <input type="text" id="name">
+
+            </div>
+            <div>
+                <label for="E-mail"> E-mail id:</label>
+                <input type="text" id="name">
+
+            </div>
+            <div>
+                <label for="phone"> Contact number</label>
+                <input type="number" name:phone id="phone">
+
+            </div>
+            <div>
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" id="subject">
+            </div>
+
+            <div>
+                <input type="submit" value: "Send" />
+            </div>
+        </form>
+    </body>
+    <style>
+        h3{
+            margin-left: 24px;
+          
+        }
+
+        *{font-size:21px;}
+
+        input[type = "submit"]{
+            color:white;
+            background-color: green;
+          border-radius: 6px;
+          margin-top: 24px;
+          width :100%;
+          margin-bottom: 32px;
+          height: 40px;
+
+        }
+            form > div{
+                display:flex;
+                width :100%;
+                flex-flow :column nowrap;
+                align-items: start;
+                justify-items : center;
+                margin-right: 24px;
+                margin-bottom: 15px;
+               
+            }
+
+            form{
+               border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+    width: 450px;
+    height: 500px;
+    border-radius: 12px;
+    padding: 20px;
+    justify-content: center;
+            }
+
+            div >label{
+                margin-top: 24px;
+             
+
+             
+               
+            }
+
+            body{
+                 display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+            }
+
+            input[type = "text"]{
+
+                width:100%;
+            }
+
+             input[type = "number"]{
+
+                width:100%;
+            }
+
+           
+
+            
+        </style>
+</html>
